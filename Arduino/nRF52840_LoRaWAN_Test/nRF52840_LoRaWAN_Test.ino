@@ -1,8 +1,8 @@
 // Test code for LoRaWAN on Feather nRF52840 Express with FeatherWing RFM95W
 
 // Based on lmic example code
-// Copyright (c) 2015 Thomas Telkamp and Matthijs Kooijman
 // Copyright (c) 2018 Terry Moore, MCCI
+// Copyright (c) 2015 Thomas Telkamp and Matthijs Kooijman
 
 // Permission is hereby granted, free of charge, to anyone obtaining
 // a copy of this document and accompanying files, to do whatever 
