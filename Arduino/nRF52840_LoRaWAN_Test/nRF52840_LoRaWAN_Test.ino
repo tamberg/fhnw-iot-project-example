@@ -43,13 +43,13 @@ const unsigned TX_INTERVAL = 60;
 // Feather nRF52840 Express with FeatherWing RFM95W
 const lmic_pinmap lmic_pins = {
   .nss = 5, // E = CS
-    .rxtx = LMIC_UNUSED_PIN,
-    .rst = 6, // D = RST
-    .dio = {
-      10, // B = DIO0 = IRQ 
-      9, // C = DIO1
-      LMIC_UNUSED_PIN
-    },
+  .rxtx = LMIC_UNUSED_PIN,
+  .rst = 6, // D = RST
+  .dio = {
+    10, // B = DIO0 = IRQ 
+    9, // C = DIO1
+    LMIC_UNUSED_PIN
+  },
 };
 
 void onEvent (ev_t ev) {
