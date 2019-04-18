@@ -20,19 +20,16 @@ The following deliverables are mandatory.
 ### Source code
 Source code, Arduino C, JS or Python, committed to (this) project repo.
 
-[Arduino/nRF52840_DHT11_Test/nRF52840_DHT11_Test.ino](Arduino/nRF52840_DHT11_Test/nRF52840_DHT11_Test.ino)
-
-[Arduino/MY_TEAM_PROJECT/MY_TEAM_PROJECT.ino](Arduino/MY_TEAM_PROJECT_FILE.ino)
-
-[Nodejs/MY_TEAM_PROJECT.js](Nodejs/MY_TEAM_PROJECT_FILE.js)
-
-[Python/MY_TEAM_PROJECT.py](Nodejs/MY_TEAM_PROJECT_FILE.py)
-
-... (adapt as required)
-
 1) Embedded code / microcontroller firmware.
 2) Glue Code used on the gateway or "in the cloud".
 3) App or Web UI code, or IoT platform setup steps.
+
+#### Arduino
+* [Arduino/nRF52840_DHT11_Test/nRF52840_DHT11_Test.ino](Arduino/nRF52840_DHT11_Test/nRF52840_DHT11_Test.ino)
+* [Arduino/nRF52840_LoRaWAN_Test/nRF52840_LoRaWAN_Test.ino](Arduino/nRF52840_LoRaWAN_Test/nRF52840_LoRaWAN_Test.ino)
+
+#### Node.js
+[Nodejs/MY_TEAM_PROJECT.js](Nodejs/MY_TEAM_PROJECT_FILE.js)
 
 ### Presentation
 4-slide presentation, PDF format, committed to (this) project repo.
