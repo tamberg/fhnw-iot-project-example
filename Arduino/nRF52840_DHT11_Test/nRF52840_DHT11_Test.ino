@@ -7,8 +7,8 @@
 
 // D2 on Grove Adapter is nRF52850 pin D5
 // See https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#pinout
-#define DHTPIN 5     // what digital pin we're connected to
-#define DHTTYPE DHT11   // DHT 11
+#define DHTPIN 5 // pin D5
+#define DHTTYPE DHT11
 
 DHT dht(DHTPIN, DHTTYPE);
 
