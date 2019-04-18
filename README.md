@@ -11,7 +11,7 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 * Both team members are able to explain the project.
 
 ### Team members
-* @tamberg
+* [@tamberg](https://github.com/tamberg)
 
 ## Deliverables
 The following deliverables are mandatory.
