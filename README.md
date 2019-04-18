@@ -1,8 +1,5 @@
 # IoT Engineering
-## Project MY_TEAM_PROJECT_TITLE
-
-> *Note: Do not work on this repository right away.*<br/>
-> *[Check existing forks to find the specific repository for your class.](../../network/members)*
+## Project Example
 
 ## Introduction
 This project is part of the [IoT Engineering](../../../fhnw-iot) course.
@@ -14,8 +11,7 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 * Both team members are able to explain the project.
 
 ### Team members
-* @MY_TEAM_PROJECT_GITHUB_USER_1, REAL_NAME_1
-* @MY_TEAM_PROJECT_GITHUB_USER_2, REAL_NAME_2
+* @tamberg
 
 ## Deliverables
 The following deliverables are mandatory.
