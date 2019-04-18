@@ -12,6 +12,7 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 
 ### Team members
 * [@tamberg](https://github.com/tamberg)
+* [@DIYKulturZH](https://github.com/DIYKulturZH)
 
 ## Deliverables
 The following deliverables are mandatory.
