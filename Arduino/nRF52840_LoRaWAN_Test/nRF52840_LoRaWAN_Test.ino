@@ -114,7 +114,7 @@ void setup() {
   os_init();
   LMIC_reset();
 
-  // Copy PROGMEM to RAM
+  // Copy keys from PROGMEM to RAM
   uint8_t appskey[sizeof(APPSKEY)];
   uint8_t nwkskey[sizeof(NWKSKEY)];
   memcpy_P(appskey, APPSKEY, sizeof(APPSKEY));
