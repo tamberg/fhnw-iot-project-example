@@ -35,5 +35,5 @@ void loop() {
     Serial.println(" *C");
   }
 
-  delay(2000); // Reading faster does not help, sensor is slow
+  delay(2000); // ms
 }
