@@ -15,10 +15,10 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 * [@DIYKulturZH](https://github.com/DIYKulturZH)
 
 ## Deliverables
-The following deliverables are mandatory.
+> The following deliverables are mandatory.
 
 ### Source code
-Source code, Arduino C, JS or Python, committed to (this) project repo.
+> Source code, Arduino C, JS or Python, committed to (this) project repo.
 
 #### Device
 > Embedded code / microcontroller firmware.
@@ -38,7 +38,7 @@ Source code, Arduino C, JS or Python, committed to (this) project repo.
 * TODO: setup steps
 
 ### Presentation
-4-slide presentation, PDF format, committed to (this) project repo.
+> 4-slide presentation, PDF format, committed to (this) project repo.
 
 * [MY_TEAM_PROJECT_PRESENTATION.pdf](MY_TEAM_PROJECT_PRESENTATION.pdf)
 
@@ -48,7 +48,7 @@ Source code, Arduino C, JS or Python, committed to (this) project repo.
 4) Issues you faced, how you solved them.
 
 ### Live demo
-Working end-to-end prototype, "device to cloud", part of your 10' presentation.
+> Working end-to-end prototype, "device to cloud", part of your 10' presentation.
 
 [https://MY_TEAM_PROJECT_DEMO_HOST:PORT/](https://MY_TEAM_PROJECT_DEMO_HOST:PORT/)
 
@@ -57,4 +57,4 @@ Working end-to-end prototype, "device to cloud", part of your 10' presentation.
 3) The event triggers actuator output on the same or on a separate IoT device.
 
 ## Submission deadline
-Commit and push to (this) project repo before Demo Day, _03.06.2019, 00:00_.
+> Commit and push to (this) project repo before Demo Day, _03.06.2019, 00:00_.
