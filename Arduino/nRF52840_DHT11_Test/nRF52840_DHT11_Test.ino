@@ -1,12 +1,13 @@
 // Test code for Grove DHT11 humidity/temperature sensor on nRF52840
 // https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#temperature--humidity-sensor-dht11
+// https://github.com/tamberg/fhnw-iot/wiki/Feather-nRF52840-Express
+// https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#pinout
 
 // Based on example code written by ladyada, public domain
 
 #include "DHT.h"
 
 // D2 on Grove Adapter is nRF52850 pin D5
-// See https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#pinout
 #define DHTPIN 5 // pin D5
 #define DHTTYPE DHT11
 
