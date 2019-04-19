@@ -26,6 +26,11 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 * [Arduino/nRF52840_DHT11_Test/nRF52840_DHT11_Test.ino](Arduino/nRF52840_DHT11_Test/nRF52840_DHT11_Test.ino)
 * [Arduino/nRF52840_LoRaWAN_Test/nRF52840_LoRaWAN_Test.ino](Arduino/nRF52840_LoRaWAN_Test/nRF52840_LoRaWAN_Test.ino)
 
+#### TTN backend
+> ... IoT platform setup steps.
+
+* TODO: setup steps
+
 #### Glue code
 > Glue Code used on the gateway or "in the cloud".
 
@@ -33,8 +38,8 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 * [Nodejs/TtnToThingSpeakAdapter/now.json](Nodejs/TtnToThingSpeakAdapter/now.json)
 * TODO: setup steps
 
-#### Dashboard
-> App or Web UI code, or IoT platform setup steps.
+#### ThingSpeak dashboard
+> ... IoT platform setup steps.
 
 * TODO: setup steps
 
