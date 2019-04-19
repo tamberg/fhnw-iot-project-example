@@ -20,8 +20,20 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 ### Source code
 > Source code, Arduino C, JS or Python, committed to (this) project repo.
 
-#### Device
+#### Sensor device
 > Embedded code / microcontroller firmware.
+
+* https://github.com/tamberg/fhnw-iot/wiki/Feather-nRF52840-Express
+* https://github.com/tamberg/fhnw-iot/wiki/FeatherWing-RFM95W
+* https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#temperature--humidity-sensor-dht11
+* https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#pinout
+
+#### Actuator device
+> Embedded code / microcontroller firmware.
+* https://github.com/tamberg/fhnw-iot/wiki/Feather-Huzzah-ESP8266
+* https://github.com/tamberg/fhnw-iot/wiki/Grove-Actuators#chainable-rgb-led
+* https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#button
+* https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#pinout
 
 ##### Source code
 * [Arduino/nRF52840_DHT11_Test/nRF52840_DHT11_Test.ino](Arduino/nRF52840_DHT11_Test/nRF52840_DHT11_Test.ino)
