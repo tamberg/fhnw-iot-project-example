@@ -35,6 +35,8 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 #### Dashboard
 > App or Web UI code, or IoT platform setup steps.
 
+* [Nodejs/TtnToThingSpeakAdapter/index.js](Nodejs/TtnToThingSpeakAdapter/index.js)
+* [Nodejs/TtnToThingSpeakAdapter/now.json](Nodejs/TtnToThingSpeakAdapter/now.json)
 * TODO: setup steps
 
 ### Presentation
