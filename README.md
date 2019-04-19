@@ -70,7 +70,7 @@ $ now</pre>
 > Issues you faced, how you solved them.
 
 * Device: Pin mapping, "D2 is D5" on the nRF52840
-* ...
+* See also [./issues](./issues)
 
 ### Live demo
 > Working end-to-end prototype, "device to cloud", part of your 10' presentation.
