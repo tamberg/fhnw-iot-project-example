@@ -24,7 +24,8 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 > Embedded code / microcontroller firmware.
 
 ##### Source code
-* ...
+* [Arduino/nRF52840_DHT11_Test/nRF52840_DHT11_Test.ino](Arduino/nRF52840_DHT11_Test/nRF52840_DHT11_Test.ino)
+* [Arduino/nRF52840_LoRaWAN_Test/nRF52840_LoRaWAN_Test.ino](Arduino/nRF52840_LoRaWAN_Test/nRF52840_LoRaWAN_Test.ino)
 
 ##### Setup software
 * ...
@@ -39,8 +40,7 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 > Embedded code / microcontroller firmware.
 
 ##### Source code
-* [Arduino/nRF52840_DHT11_Test/nRF52840_DHT11_Test.ino](Arduino/nRF52840_DHT11_Test/nRF52840_DHT11_Test.ino)
-* [Arduino/nRF52840_LoRaWAN_Test/nRF52840_LoRaWAN_Test.ino](Arduino/nRF52840_LoRaWAN_Test/nRF52840_LoRaWAN_Test.ino)
+* ...
 
 ##### Setup software
 * TODO: set keys
