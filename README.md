@@ -77,7 +77,7 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
     const appId = "TTN_APP_ID";
     ```
     
-    and per device TNT device IDs and ThingSpeak keys:
+    and per device TTN device IDs and ThingSpeak keys:
 
     ```
     const writeApiKeys = {
