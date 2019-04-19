@@ -4,11 +4,11 @@
 ## Introduction
 This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 
-* 2-person teams, building an IoT system.
-* 32 hours of work per person, 1 prototype.
-* 10' presentation of the project at Demo Day.
-* Slides, source code and setup steps on GitHub.
-* Both team members are able to explain the project.
+> * 2-person teams, building an IoT system.
+> * 32 hours of work per person, 1 prototype.
+> * 10' presentation of the project at Demo Day.
+> * Slides, source code and setup steps on GitHub.
+> * Both team members are able to explain the project.
 
 ### Team members
 * [@tamberg](https://github.com/tamberg)
