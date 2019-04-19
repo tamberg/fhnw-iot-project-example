@@ -96,7 +96,7 @@ $ now</pre>
 #### Use case
 > Use-case of your project.
 
-This project is a temperature and humidity monitoring system with configurable alarms.
+This project is a temperature and humidity monitoring system with a configurable alert.
 
 * Measure temperature and humidity
 * Display (historic) measurements
@@ -108,7 +108,7 @@ This project is a temperature and humidity monitoring system with configurable a
 > Reference model of your project.
 
 * LoRaWAN-connected sensor device with a temperature and humidity sensor
-* Wi-Fi-connected actuator device with a color LED, 2 buttons and potentiometer (dial)
+* Wi-Fi-connected actuator device with a buzzer, a display, a button and a potentiometer (dial)
 * LoRaWAN Gateway
 * Wi-Fi Router
 * TTN LoRaWAN backend
