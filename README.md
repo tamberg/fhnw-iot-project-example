@@ -48,10 +48,26 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 
 * [MY_TEAM_PROJECT_PRESENTATION.pdf](MY_TEAM_PROJECT_PRESENTATION.pdf)
 
-1) Use-case of your project.
-2) Reference model of your project.
-3) Single slide interface documentation.
-4) Issues you faced, how you solved them.
+#### Use case
+> Use-case of your project.
+
+* ...
+
+#### Reference model
+> Reference model of your project.
+
+* ...
+
+#### Interface documentation
+> Single slide interface documentation.
+
+* ...
+
+#### Issues
+> Issues you faced, how you solved them.
+
+* Device: Pin mapping, "D2 is D5" on the nRF52840
+* ...
 
 ### Live demo
 > Working end-to-end prototype, "device to cloud", part of your 10' presentation.
