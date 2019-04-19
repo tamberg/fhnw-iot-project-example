@@ -31,20 +31,20 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 
 * TODO: setup steps
 
+#### ThingSpeak dashboard
+> ... IoT platform setup steps.
+
+* TODO: setup steps
+
 #### Glue code
 > Glue Code used on the gateway or "in the cloud".
 
 * [Nodejs/TtnToThingSpeakAdapter/index.js](Nodejs/TtnToThingSpeakAdapter/index.js)
 * [Nodejs/TtnToThingSpeakAdapter/now.json](Nodejs/TtnToThingSpeakAdapter/now.json)
-* Configuration: Add TTN_APP_ID, and per device TTN_DEVICE_ID, THINGSPEAK_WRITE_API_KEY
+* Edit [index.js](Nodejs/TtnToThingSpeakAdapter/index.js) to add your TTN_APP_ID, and per device TTN_DEVICE_ID and ThingSpeak WRITE_API_KEY
 * To deploy the code, type:<pre>
 $ cd Nodejs/TtnToThingSpeakAdapter
 $ now</pre>
-
-#### ThingSpeak dashboard
-> ... IoT platform setup steps.
-
-* TODO: setup steps
 
 ### Presentation
 > 4-slide presentation, PDF format, committed to (this) project repo.
