@@ -29,14 +29,13 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 #### Glue code
 > Glue Code used on the gateway or "in the cloud".
 
-* [Nodejs/MY_TEAM_PROJECT.js](Nodejs/MY_TEAM_PROJECT_FILE.js)
+* [Nodejs/TtnToThingSpeakAdapter/index.js](Nodejs/TtnToThingSpeakAdapter/index.js)
+* [Nodejs/TtnToThingSpeakAdapter/now.json](Nodejs/TtnToThingSpeakAdapter/now.json)
 * TODO: setup steps
 
 #### Dashboard
 > App or Web UI code, or IoT platform setup steps.
 
-* [Nodejs/TtnToThingSpeakAdapter/index.js](Nodejs/TtnToThingSpeakAdapter/index.js)
-* [Nodejs/TtnToThingSpeakAdapter/now.json](Nodejs/TtnToThingSpeakAdapter/now.json)
 * TODO: setup steps
 
 ### Presentation
