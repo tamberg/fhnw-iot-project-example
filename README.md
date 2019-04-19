@@ -59,7 +59,7 @@ Setup
     }
     ```
 
-* To deploy the code, type:<pre>
+* To deploy the code on [Zeit Now](https://zeit.co/now), type:<pre>
 $ cd Nodejs/TtnToThingSpeakAdapter
 $ now</pre>
 
