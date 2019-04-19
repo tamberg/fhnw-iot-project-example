@@ -96,12 +96,24 @@ $ now</pre>
 #### Use case
 > Use-case of your project.
 
-* ...
+This project is a temperature and humidity monitoring system with configurable alarms.
+
+* Measure temperature and humidity
+* Display (historic) measurements
+* Set a humidity alarm threshold
+* Get a humidity alarm
+* Confirm an alarm
 
 #### Reference model
 > Reference model of your project.
 
-* ...
+* LoRaWAN-connected sensor device with a temperature and humidity sensor
+* Wi-Fi-connected actuator device with a color LED, 2 buttons and potentiometer (dial)
+* LoRaWAN Gateway
+* Wi-Fi Router
+* TTN LoRaWAN backend
+* ThingSpeak backend
+* Glue code on Zeit Now
 
 #### Interface documentation
 > Single slide interface documentation.
