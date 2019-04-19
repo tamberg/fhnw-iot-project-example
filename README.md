@@ -47,7 +47,9 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
     ```const appId = "TTN_APP_ID";</pre> and per device<pre>
     const writeApiKeys = {
         "TTN_DEVICE_ID_1": "WRITE_API_KEY_1", // CHANNEL_ID_1
-        ...```
+        ...
+    }
+    ```
 
 * To deploy the code, type:<pre>
 $ cd Nodejs/TtnToThingSpeakAdapter
