@@ -44,9 +44,11 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 
 * Edit [index.js](Nodejs/TtnToThingSpeakAdapter/index.js) to add your TTN AppID:
 
-    ```const appId = "TTN_APP_ID";```
+    ```
+    const appId = "TTN_APP_ID";
+    ```
     
-    and per device
+    and per device TNT device IDs and ThingSpeak keys:
 
     ```
     const writeApiKeys = {
