@@ -39,9 +39,11 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 #### Glue code
 > Glue Code used on the gateway or "in the cloud".
 
+Source code
 * [Nodejs/TtnToThingSpeakAdapter/index.js](Nodejs/TtnToThingSpeakAdapter/index.js)
 * [Nodejs/TtnToThingSpeakAdapter/now.json](Nodejs/TtnToThingSpeakAdapter/now.json)
 
+Setup
 * Edit [index.js](Nodejs/TtnToThingSpeakAdapter/index.js) to add your TTN AppID:
 
     ```
