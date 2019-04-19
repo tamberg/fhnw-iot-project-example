@@ -23,8 +23,15 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 #### Device
 > Embedded code / microcontroller firmware.
 
+##### Source code
 * [Arduino/nRF52840_DHT11_Test/nRF52840_DHT11_Test.ino](Arduino/nRF52840_DHT11_Test/nRF52840_DHT11_Test.ino)
 * [Arduino/nRF52840_LoRaWAN_Test/nRF52840_LoRaWAN_Test.ino](Arduino/nRF52840_LoRaWAN_Test/nRF52840_LoRaWAN_Test.ino)
+
+##### Setup hardware
+* TODO: board, adapter, shield
+
+##### Setup software
+* TODO: set keys
 
 #### TTN backend
 > ... IoT platform setup steps.
@@ -36,14 +43,14 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 
 * TODO: setup steps
 
-#### Glue code
+#### TTN to ThingSpeak adapter
 > Glue Code used on the gateway or "in the cloud".
 
-Source code
+##### Source code
 * [Nodejs/TtnToThingSpeakAdapter/index.js](Nodejs/TtnToThingSpeakAdapter/index.js)
 * [Nodejs/TtnToThingSpeakAdapter/now.json](Nodejs/TtnToThingSpeakAdapter/now.json)
 
-Setup
+##### Setup
 * Edit [index.js](Nodejs/TtnToThingSpeakAdapter/index.js) to add your TTN AppID:
 
     ```
