@@ -36,9 +36,10 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 
 * [Nodejs/TtnToThingSpeakAdapter/index.js](Nodejs/TtnToThingSpeakAdapter/index.js)
 * [Nodejs/TtnToThingSpeakAdapter/now.json](Nodejs/TtnToThingSpeakAdapter/now.json)
-
-##### Setup
-* ...
+* Configuration: Add TTN_APP_ID, and per device TTN_DEVICE_ID, THINGSPEAK_WRITE_API_KEY
+* To deploy the code, type:<pre>
+$ cd Nodejs/TtnToThingSpeakAdapter
+$ now</pre>
 
 #### ThingSpeak dashboard
 > ... IoT platform setup steps.
