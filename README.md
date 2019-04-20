@@ -29,13 +29,15 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 * [Arduino/nRF52840_LoRaWAN_DHT11_Device/nRF52840_LoRaWAN_DHT11_Device.ino](Arduino/nRF52840_LoRaWAN_DHT11_Device/nRF52840_LoRaWAN_DHT11_Device.ino)
 
 ##### Setup software
-* ...
+* Edit [nRF52840_LoRaWAN_DHT11_Device.ino](Arduino/nRF52840_LoRaWAN_DHT11_Device/nRF52840_LoRaWAN_DHT11_Device.ino) to set TTN NwkSKey, AppSKey and DevAddr.
 
 ##### Setup hardware
 * https://github.com/tamberg/fhnw-iot/wiki/Feather-nRF52840-Express
 * https://github.com/tamberg/fhnw-iot/wiki/FeatherWing-RFM95W
 * https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#temperature--humidity-sensor-dht11
 * https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#grove-shield-for-feather
+* Stack the nRF52840 on top of the RFM95W on top of the Grove adapter.
+* Connect the DHT11 sensor to A4.
 
 #### Actuator device
 > Embedded code / microcontroller firmware.
