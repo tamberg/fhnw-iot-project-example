@@ -59,7 +59,10 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 #### TTN backend
 > ... IoT platform setup steps.
 
-* TODO: setup steps
+* Register an application named fhnw-project-example
+* Register a device named fhnw-project-example-arduino-1
+* Get ABP keys, NwkSKey, AppSKey and DevAddr (see nRF52840 setup above)
+* See http://www.tamberg.org/fhnw/2019/IoT08LoRaWANConnectivity.pdf p.18, 19 and 21
 
 #### ThingSpeak dashboard
 > ... IoT platform setup steps.
