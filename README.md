@@ -34,8 +34,8 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 ##### Setup hardware
 * https://github.com/tamberg/fhnw-iot/wiki/Feather-nRF52840-Express
 * https://github.com/tamberg/fhnw-iot/wiki/FeatherWing-RFM95W
-* https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#temperature--humidity-sensor-dht11
 * https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#grove-shield-for-feather
+* https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#temperature--humidity-sensor-dht11
 * Stack the nRF52840 on top of the RFM95W on top of the Grove adapter.
 * Connect the DHT11 sensor to A4.
 
@@ -50,11 +50,11 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 
 ##### Setup hardware
 * https://github.com/tamberg/fhnw-iot/wiki/Feather-Huzzah-ESP8266
+* https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#grove-shield-for-feather
 * https://github.com/tamberg/fhnw-iot/wiki/Grove-Actuators#buzzer
 * https://github.com/tamberg/fhnw-iot/wiki/Grove-Actuators#4-digit-display-tm1637
 * https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#rotary-angle-sensor
 * https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#button
-* https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#grove-shield-for-feather
 
 #### TTN backend
 > ... IoT platform setup steps.
