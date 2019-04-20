@@ -51,7 +51,7 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 * https://github.com/tamberg/fhnw-iot/wiki/Grove-Actuators#4-digit-display-tm1637
 * https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#rotary-angle-sensor
 * https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#button
-* https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#pinout
+* https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#grove-shield-for-feather
 
 #### TTN backend
 > ... IoT platform setup steps.
