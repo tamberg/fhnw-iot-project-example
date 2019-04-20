@@ -4,11 +4,11 @@
 ## Introduction
 This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 
-* 2-person teams, building an IoT system.
-* 32 hours of work per person, 1 prototype.
-* 10' presentation of the project at Demo Day.
-* Slides, source code and setup steps on GitHub.
-* Both team members are able to explain the project.
+> * 2-person teams, building an IoT system.
+> * 32 hours of work per person, 1 prototype.
+> * 10' presentation of the project at Demo Day.
+> * Slides, source code and setup steps on GitHub.
+> * Both team members are able to explain the project.
 
 ### Team members
 * [@tamberg](https://github.com/tamberg)
@@ -20,32 +20,114 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 ### Source code
 > Source code, Arduino C, JS or Python, committed to (this) project repo.
 
-#### Device
+#### Sensor device
 > Embedded code / microcontroller firmware.
 
+##### Source code
 * [Arduino/nRF52840_DHT11_Test/nRF52840_DHT11_Test.ino](Arduino/nRF52840_DHT11_Test/nRF52840_DHT11_Test.ino)
 * [Arduino/nRF52840_LoRaWAN_Test/nRF52840_LoRaWAN_Test.ino](Arduino/nRF52840_LoRaWAN_Test/nRF52840_LoRaWAN_Test.ino)
 
-#### Glue code
+##### Setup software
+* ...
+
+##### Setup hardware
+* https://github.com/tamberg/fhnw-iot/wiki/Feather-nRF52840-Express
+* https://github.com/tamberg/fhnw-iot/wiki/FeatherWing-RFM95W
+* https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#temperature--humidity-sensor-dht11
+* https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#grove-shield-for-feather
+
+#### Actuator device
+> Embedded code / microcontroller firmware.
+
+##### Source code
+* ...
+
+##### Setup software
+* TODO: set keys
+
+##### Setup hardware
+* https://github.com/tamberg/fhnw-iot/wiki/Feather-Huzzah-ESP8266
+* https://github.com/tamberg/fhnw-iot/wiki/Grove-Actuators#buzzer
+* https://github.com/tamberg/fhnw-iot/wiki/Grove-Actuators#4-digit-display-tm1637
+* https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#rotary-angle-sensor
+* https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#button
+* https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#grove-shield-for-feather
+
+#### TTN backend
+> ... IoT platform setup steps.
+
+* TODO: setup steps
+
+#### ThingSpeak dashboard
+> ... IoT platform setup steps.
+
+* TODO: setup steps
+
+#### TTN to ThingSpeak adapter
 > Glue Code used on the gateway or "in the cloud".
 
-* [Nodejs/MY_TEAM_PROJECT.js](Nodejs/MY_TEAM_PROJECT_FILE.js)
-* TODO: setup steps
+##### Source code
+* [Nodejs/TtnToThingSpeakAdapter/index.js](Nodejs/TtnToThingSpeakAdapter/index.js)
+* [Nodejs/TtnToThingSpeakAdapter/now.json](Nodejs/TtnToThingSpeakAdapter/now.json)
 
-#### Dashboard
-> App or Web UI code, or IoT platform setup steps.
+##### Setup
+* Edit [index.js](Nodejs/TtnToThingSpeakAdapter/index.js) to add your TTN AppID:
 
-* TODO: setup steps
+    ```
+    const appId = "TTN_APP_ID";
+    ```
+    
+    and per device TTN device IDs and ThingSpeak keys:
+
+    ```
+    const writeApiKeys = {
+        "TTN_DEVICE_ID_1": "WRITE_API_KEY_1", // CHANNEL_ID_1
+        ...
+    }
+    ```
+
+* To deploy the code on [Zeit Now](https://zeit.co/now), type:<pre>
+$ cd Nodejs/TtnToThingSpeakAdapter
+$ now</pre>
 
 ### Presentation
 > 4-slide presentation, PDF format, committed to (this) project repo.
 
 * [MY_TEAM_PROJECT_PRESENTATION.pdf](MY_TEAM_PROJECT_PRESENTATION.pdf)
 
-1) Use-case of your project.
-2) Reference model of your project.
-3) Single slide interface documentation.
-4) Issues you faced, how you solved them.
+#### Use case
+> Use-case of your project.
+
+This project is a temperature and humidity monitoring system with a configurable alert.
+
+* Measure temperature and humidity
+* Display (historic) measurements
+* Set a humidity alarm threshold
+* Get a humidity alarm
+* Confirm an alarm
+
+#### Reference model
+> Reference model of your project.
+
+* LoRaWAN-connected sensor device with a temperature and humidity sensor
+* Wi-Fi-connected actuator device with a buzzer, a display, a button and a potentiometer (dial)
+* LoRaWAN Gateway
+* Wi-Fi Router
+* TTN LoRaWAN backend
+* ThingSpeak backend
+* Glue code on Zeit Now
+
+#### Interface documentation
+> Single slide interface documentation.
+
+* ...
+
+#### Issues
+> Issues you faced, how you solved them.
+
+* Device: Pin mapping, "D2 is D5" on the nRF52840.
+* Device: Pin collision, D5 used by DHT11 and RFM95W.
+* See also [GitHub Issues](../../issues) of this project.
 
 ### Live demo
 > Working end-to-end prototype, "device to cloud", part of your 10' presentation.
