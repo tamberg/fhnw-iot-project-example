@@ -61,7 +61,7 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 
 * Register an application named fhnw-project-example
 * Register a device named fhnw-project-example-arduino-1
-* Get ABP keys, NwkSKey, AppSKey and DevAddr (see [nRF52840 setup](https://github.com/tamberg/fhnw-iot-project-example/blob/master/README.md#setup-software) above)
+* Get ABP keys, NwkSKey, AppSKey and DevAddr (for [nRF52840 setup](https://github.com/tamberg/fhnw-iot-project-example/blob/master/README.md#setup-software) above)
 * See http://www.tamberg.org/fhnw/2019/IoT08LoRaWANConnectivity.pdf p.18, 19 and 21
 
 #### ThingSpeak dashboard
