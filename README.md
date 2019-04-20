@@ -125,7 +125,8 @@ This project is a temperature and humidity monitoring system with a configurable
 #### Issues
 > Issues you faced, how you solved them.
 
-* Device: Pin mapping, "D2 is D5" on the nRF52840
+* Device: Pin mapping, "D2 is D5" on the nRF52840.
+* Device: Pin collision, D5 used by DHT11 and RFM95W.
 * See also [GitHub Issues](../../issues) of this project.
 
 ### Live demo
