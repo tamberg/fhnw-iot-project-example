@@ -34,7 +34,7 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 * https://github.com/tamberg/fhnw-iot/wiki/Feather-nRF52840-Express
 * https://github.com/tamberg/fhnw-iot/wiki/FeatherWing-RFM95W
 * https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#temperature--humidity-sensor-dht11
-* https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#pinout
+* https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#grove-shield-for-feather
 
 #### Actuator device
 > Embedded code / microcontroller firmware.
