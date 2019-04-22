@@ -138,7 +138,8 @@ This project is a temperature and humidity monitoring system with a configurable
 ### Live demo
 > Working end-to-end prototype, "device to cloud", part of your 10' presentation.
 
-[https://MY_TEAM_PROJECT_DEMO_HOST:PORT/](https://MY_TEAM_PROJECT_DEMO_HOST:PORT/)
+* https://thingspeak.com/channels/758483
+* https://MY_TEAM_PROJECT_DEMO_HOST:PORT/
 
 1) Sensor input on a IoT device triggers an event.
 2) The event or measurement shows up online, in an app or Web client.
