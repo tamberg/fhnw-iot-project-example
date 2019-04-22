@@ -126,9 +126,9 @@ This project is a temperature and humidity monitoring system with a configurable
 > Issues you faced, how you solved them.
 
 * Sensor Device: Pin mapping, "D2 is D5" on the nRF52840.
-* Sensor Device: Pin collision, D5 used by DHT11 and RFM95W.
-* Actuator Device: Connecting to ThingSpeak MQTT API.
-* See also [GitHub Issues](../../issues) of this project.
+* Sensor Device: Pin collision, [D5 used by DHT11 and RFM95W](https://github.com/tamberg/fhnw-iot-project-example/issues/2).
+* Actuator Device: [Connecting to ThingSpeak MQTT API](https://github.com/tamberg/fhnw-iot-project-example/issues/3)
+* See also [GitHub Issues](../../issues) of this project
 
 ### Live demo
 > Working end-to-end prototype, "device to cloud", part of your 10' presentation.
