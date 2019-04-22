@@ -82,7 +82,11 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 #### ThingSpeak dashboard
 > ... IoT platform setup steps.
 
-* TODO: setup steps
+* Go to http://thingspeak.com
+* Create a Channel per TTN device
+* Add field1 named "Temperature"
+* Add field2 named "Humidity"
+* Set channel visibility to public (for demo)
 
 #### TTN to ThingSpeak adapter
 > Glue Code used on the gateway or "in the cloud".
