@@ -40,7 +40,7 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 > Embedded code / microcontroller firmware.
 
 ##### Source code
-* ...
+* [Arduino/ESP8266_MqttSubClient/ESP8266_MqttSubClient.ino](Arduino/ESP8266_MqttSubClient/ESP8266_MqttSubClient.ino)
 
 ##### Setup software
 * Set the ThingSpeak Read API key
