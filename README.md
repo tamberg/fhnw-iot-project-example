@@ -52,9 +52,11 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 * https://github.com/tamberg/fhnw-iot/wiki/Feather-Huzzah-ESP8266
 * https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#grove-shield-for-feather
 * https://github.com/tamberg/fhnw-iot/wiki/Grove-Actuators#buzzer
-* https://github.com/tamberg/fhnw-iot/wiki/Grove-Actuators#4-digit-display-tm1637
-* https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#rotary-angle-sensor
 * https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#button
+* https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#rotary-angle-sensor
+* https://github.com/tamberg/fhnw-iot/wiki/Grove-Actuators#4-digit-display-tm1637
+* Stack the ESP8266 on top of the Grove adapter.
+* Connect the Buzzer to D2, Button to D4, Rotary Angle Sensor to A0, Display to D?.
 
 #### TTN backend
 > ... IoT platform setup steps.
