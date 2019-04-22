@@ -108,8 +108,8 @@ $ now</pre>
 
 This project is a temperature and humidity monitoring system with a configurable alert.
 
-* Measure temperature and humidity
-* Display (historic) measurements
+* Measure temperature and humidity ✓
+* Display (historic) measurements ✓
 * Set a humidity alarm threshold
 * Get a humidity alarm
 * Confirm an alarm
