@@ -45,7 +45,20 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 * ...
 
 ##### Setup software
-* Set the ThingSpeak Read API key
+* Set Wi-Fi credentials
+
+    ```
+    const char *ssid = "MY_SSID"; // TODO
+    const char *password = "MY_PASSWORD"; // TODO
+    ```
+
+* Set ThingSpeak keys
+
+    ```
+    const char *mqttPassword = "TS_MQTT_API_KEY"; // TODO
+    const char *channelId = "TS_CHANNEL_ID"; // TODO
+    const char *readApiKey = "TS_READ_API_KEY"; // TODO
+    ```
 
 ##### Setup hardware
 * The actuator device consists of a [ESP8266](https://github.com/tamberg/fhnw-iot/wiki/Feather-Huzzah-ESP8266), [Grove adapter](https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#grove-shield-for-feather), [buzzer](https://github.com/tamberg/fhnw-iot/wiki/Grove-Actuators#buzzer), [button](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#button), [rotary angle sensor](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#rotary-angle-sensor), and a [display](https://github.com/tamberg/fhnw-iot/wiki/Grove-Actuators#4-digit-display-tm1637).
