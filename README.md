@@ -29,7 +29,17 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 * [Arduino/nRF52840_LoRaWAN_DHT11_Device/nRF52840_LoRaWAN_DHT11_Device.ino](Arduino/nRF52840_LoRaWAN_DHT11_Device/nRF52840_LoRaWAN_DHT11_Device.ino)
 
 ##### Setup software
-* Edit [nRF52840_LoRaWAN_DHT11_Device.ino](Arduino/nRF52840_LoRaWAN_DHT11_Device/nRF52840_LoRaWAN_DHT11_Device.ino) to set TTN NwkSKey, AppSKey and DevAddr.
+* Edit [nRF52840_LoRaWAN_DHT11_Device.ino](Arduino/nRF52840_LoRaWAN_DHT11_Device/nRF52840_LoRaWAN_DHT11_Device.ino) to set TTN NwkSKey, AppSKey and DevAddr:
+
+    ```
+    static const u1_t PROGMEM NWKSKEY[16] = // TODO: change
+      { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
+    
+    static const u1_t PROGMEM APPSKEY[16] = // TODO: change
+      { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
+
+    static const u4_t DEVADDR = 0x00000000; // TODO: change
+    ```
 
 ##### Setup hardware
 * The sensor device consists of a [nRF52840](https://github.com/tamberg/fhnw-iot/wiki/Feather-nRF52840-Express), [RFM95W](https://github.com/tamberg/fhnw-iot/wiki/FeatherWing-RFM95W), [Grove adapter](https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#grove-shield-for-feather) and a [DHT11 sensor](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#temperature--humidity-sensor-dht11).
