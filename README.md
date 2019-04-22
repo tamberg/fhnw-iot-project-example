@@ -43,7 +43,7 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 * ...
 
 ##### Setup software
-* TODO: set keys
+* Set the ThingSpeak Read API key
 
 ##### Setup hardware
 * The actuator device consists of a [ESP8266](https://github.com/tamberg/fhnw-iot/wiki/Feather-Huzzah-ESP8266), [Grove adapter](https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#grove-shield-for-feather), [buzzer](https://github.com/tamberg/fhnw-iot/wiki/Grove-Actuators#buzzer), [button](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#button), [rotary angle sensor](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#rotary-angle-sensor), and a [display](https://github.com/tamberg/fhnw-iot/wiki/Grove-Actuators#4-digit-display-tm1637).
@@ -77,7 +77,7 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
     const appId = "TTN_APP_ID";
     ```
     
-    and per device TTN device IDs and ThingSpeak keys:
+    and per device TTN device IDs and ThingSpeak Write API keys:
 
     ```
     const writeApiKeys = {
