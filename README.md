@@ -46,9 +46,9 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 * TODO: set keys
 
 ##### Setup hardware
-* The actuator device consists of a [ESP8266](https://github.com/tamberg/fhnw-iot/wiki/Feather-Huzzah-ESP8266), [Grove adapter](https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#grove-shield-for-feather), [Buzzer](https://github.com/tamberg/fhnw-iot/wiki/Grove-Actuators#buzzer), [Button](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#button), [Rotary Angle sensor](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#rotary-angle-sensor), and a [Display](https://github.com/tamberg/fhnw-iot/wiki/Grove-Actuators#4-digit-display-tm1637).
+* The actuator device consists of a [ESP8266](https://github.com/tamberg/fhnw-iot/wiki/Feather-Huzzah-ESP8266), [Grove adapter](https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#grove-shield-for-feather), [buzzer](https://github.com/tamberg/fhnw-iot/wiki/Grove-Actuators#buzzer), [button](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#button), [Rotary Angle sensor](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#rotary-angle-sensor), and a [display](https://github.com/tamberg/fhnw-iot/wiki/Grove-Actuators#4-digit-display-tm1637).
 * Stack the ESP8266 on top of the Grove adapter.
-* Connect the Buzzer to D2, Button to D4, Rotary Angle Sensor to A0, Display to I2C_1 of the Grove adapter.
+* Connect the buzzer to D2, button to D4, rotary angle sensor to A0, display to I2C_1 of the Grove adapter.
 
 #### TTN backend
 > ... IoT platform setup steps.
