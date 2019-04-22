@@ -120,7 +120,17 @@ This project is a temperature and humidity monitoring system with a configurable
 #### Interface documentation
 > Single slide interface documentation.
 
-* ...
+* HTTP API to write to ThingSpeak
+
+    ```
+    $ curl ...
+    ```
+
+* MQTT API to read from ThingSpeak
+
+    ```
+    $ mqtt sub -t 'channels/CHANNEL_ID/subscribe/json/READ_API_KEY' -h 'mqtt.thingspeak.com' -u 'esp8266-CHANNEL_ID' -P 'MQTT_API_KEY' -p 1883 -q 0    
+    ```
 
 #### Issues
 > Issues you faced, how you solved them.
