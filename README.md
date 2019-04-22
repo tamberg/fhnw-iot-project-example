@@ -26,15 +26,15 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 ##### Source code
 * [Arduino/nRF52840_DHT11_Test/nRF52840_DHT11_Test.ino](Arduino/nRF52840_DHT11_Test/nRF52840_DHT11_Test.ino)
 * [Arduino/nRF52840_LoRaWAN_Test/nRF52840_LoRaWAN_Test.ino](Arduino/nRF52840_LoRaWAN_Test/nRF52840_LoRaWAN_Test.ino)
+* [Arduino/nRF52840_LoRaWAN_DHT11_Device/nRF52840_LoRaWAN_DHT11_Device.ino](Arduino/nRF52840_LoRaWAN_DHT11_Device/nRF52840_LoRaWAN_DHT11_Device.ino)
 
 ##### Setup software
-* ...
+* Edit [nRF52840_LoRaWAN_DHT11_Device.ino](Arduino/nRF52840_LoRaWAN_DHT11_Device/nRF52840_LoRaWAN_DHT11_Device.ino) to set TTN NwkSKey, AppSKey and DevAddr.
 
 ##### Setup hardware
-* https://github.com/tamberg/fhnw-iot/wiki/Feather-nRF52840-Express
-* https://github.com/tamberg/fhnw-iot/wiki/FeatherWing-RFM95W
-* https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#temperature--humidity-sensor-dht11
-* https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#grove-shield-for-feather
+* The sensor device consists of a [nRF52840](https://github.com/tamberg/fhnw-iot/wiki/Feather-nRF52840-Express), [RFM95W](https://github.com/tamberg/fhnw-iot/wiki/FeatherWing-RFM95W), [Grove adapter](https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#grove-shield-for-feather) and a [DHT11 sensor](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#temperature--humidity-sensor-dht11).
+* Stack the nRF52840 on top of the RFM95W on top of the Grove adapter.
+* Connect the DHT11 sensor to A4 of the Grove adapter.
 
 #### Actuator device
 > Embedded code / microcontroller firmware.
@@ -43,20 +43,20 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 * ...
 
 ##### Setup software
-* TODO: set keys
+* Set the ThingSpeak Read API key
 
 ##### Setup hardware
-* https://github.com/tamberg/fhnw-iot/wiki/Feather-Huzzah-ESP8266
-* https://github.com/tamberg/fhnw-iot/wiki/Grove-Actuators#buzzer
-* https://github.com/tamberg/fhnw-iot/wiki/Grove-Actuators#4-digit-display-tm1637
-* https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#rotary-angle-sensor
-* https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#button
-* https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#grove-shield-for-feather
+* The actuator device consists of a [ESP8266](https://github.com/tamberg/fhnw-iot/wiki/Feather-Huzzah-ESP8266), [Grove adapter](https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#grove-shield-for-feather), [buzzer](https://github.com/tamberg/fhnw-iot/wiki/Grove-Actuators#buzzer), [button](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#button), [rotary angle sensor](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#rotary-angle-sensor), and a [display](https://github.com/tamberg/fhnw-iot/wiki/Grove-Actuators#4-digit-display-tm1637).
+* Stack the ESP8266 on top of the Grove adapter.
+* Connect the buzzer to D2, button to D4, rotary angle sensor to A0, display to I2C_1 of the Grove adapter.
 
 #### TTN backend
 > ... IoT platform setup steps.
 
-* TODO: setup steps
+* Register an application named fhnw-project-example
+* Register a device named fhnw-project-example-arduino-1
+* Get ABP keys, NwkSKey, AppSKey and DevAddr (for [nRF52840 setup](https://github.com/tamberg/fhnw-iot-project-example/blob/master/README.md#setup-software) above)
+* See http://www.tamberg.org/fhnw/2019/IoT08LoRaWANConnectivity.pdf p.18, 19 and 21
 
 #### ThingSpeak dashboard
 > ... IoT platform setup steps.
@@ -77,7 +77,7 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
     const appId = "TTN_APP_ID";
     ```
     
-    and per device TTN device IDs and ThingSpeak keys:
+    and per device TTN device IDs and ThingSpeak Write API keys:
 
     ```
     const writeApiKeys = {
@@ -100,8 +100,8 @@ $ now</pre>
 
 This project is a temperature and humidity monitoring system with a configurable alert.
 
-* Measure temperature and humidity
-* Display (historic) measurements
+* Measure temperature and humidity ✓
+* Display (historic) measurements ✓
 * Set a humidity alarm threshold
 * Get a humidity alarm
 * Confirm an alarm
@@ -125,14 +125,15 @@ This project is a temperature and humidity monitoring system with a configurable
 #### Issues
 > Issues you faced, how you solved them.
 
-* Device: Pin mapping, "D2 is D5" on the nRF52840.
-* Device: Pin collision, D5 used by DHT11 and RFM95W.
+* Sensor Device: Pin mapping, "D2 is D5" on the nRF52840.
+* Sensor Device: Pin collision, D5 used by DHT11 and RFM95W.
 * See also [GitHub Issues](../../issues) of this project.
 
 ### Live demo
 > Working end-to-end prototype, "device to cloud", part of your 10' presentation.
 
-[https://MY_TEAM_PROJECT_DEMO_HOST:PORT/](https://MY_TEAM_PROJECT_DEMO_HOST:PORT/)
+* https://thingspeak.com/channels/758483
+* https://MY_TEAM_PROJECT_DEMO_HOST:PORT/
 
 1) Sensor input on a IoT device triggers an event.
 2) The event or measurement shows up online, in an app or Web client.
