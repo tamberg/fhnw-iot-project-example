@@ -32,13 +32,9 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 * Edit [nRF52840_LoRaWAN_DHT11_Device.ino](Arduino/nRF52840_LoRaWAN_DHT11_Device/nRF52840_LoRaWAN_DHT11_Device.ino) to set TTN NwkSKey, AppSKey and DevAddr:
 
     ```
-    static const u1_t PROGMEM NWKSKEY[16] = // TODO: change
-      { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
-    
-    static const u1_t PROGMEM APPSKEY[16] = // TODO: change
-      { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
-
-    static const u4_t DEVADDR = 0x00000000; // TODO: change
+    static const u1_t PROGMEM NWKSKEY[16] = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
+    static const u1_t PROGMEM APPSKEY[16] = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
+    static const u4_t DEVADDR = 0x00000000;
     ```
 
 ##### Setup hardware
@@ -58,16 +54,16 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 * Set Wi-Fi credentials
 
     ```
-    const char *ssid = "MY_SSID"; // TODO
-    const char *password = "MY_PASSWORD"; // TODO
+    const char *ssid = "MY_SSID";
+    const char *password = "MY_PASSWORD";
     ```
 
 * Set ThingSpeak keys
 
     ```
-    const char *mqttPassword = "TS_MQTT_API_KEY"; // TODO
-    const char *channelId = "TS_CHANNEL_ID"; // TODO
-    const char *readApiKey = "TS_READ_API_KEY"; // TODO
+    const char *mqttPassword = "TS_MQTT_API_KEY";
+    const char *channelId = "TS_CHANNEL_ID";
+    const char *readApiKey = "TS_READ_API_KEY";
     ```
 
 ##### Setup hardware
