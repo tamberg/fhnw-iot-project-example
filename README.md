@@ -127,6 +127,7 @@ This project is a temperature and humidity monitoring system with a configurable
 
 * Sensor Device: Pin mapping, "D2 is D5" on the nRF52840.
 * Sensor Device: Pin collision, D5 used by DHT11 and RFM95W.
+* Actuator Device: Connecting to ThingSpeak MQTT API.
 * See also [GitHub Issues](../../issues) of this project.
 
 ### Live demo
