@@ -49,6 +49,7 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 * [Arduino/ESP8266_Display_Test/ESP8266_Display_Test.ino](Arduino/ESP8266_Display_Test/ESP8266_Display_Test.ino)
 * [Arduino/ESP8266_JSON_Test/ESP8266_JSON_Test.ino](Arduino/ESP8266_JSON_Test/ESP8266_JSON_Test.ino)
 * [Arduino/ESP8266_MqttSubClient_Test/ESP8266_MqttSubClient_Test.ino](Arduino/ESP8266_MqttSubClient_Test/ESP8266_MqttSubClient_Test.ino)
+* [Arduino/ESP8266_SetAlert_Test/ESP8266_SetAlert_Test.ino](Arduino/ESP8266_SetAlert_Test/ESP8266_SetAlert_Test.ino)
 * ...
 
 ##### Setup software
