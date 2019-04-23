@@ -10,11 +10,6 @@ void setup() {
   tm1637.init();
 }
 
-void displayBytes(int8_t *bytes) {
-  tm1637.display(bytes);
-  delay(500);
-}
-
 void loop() {
   int8_t b[] = { 0x00, 0x00, 0x00, 0x00 };
   for (int i = 0; i < 255; i++) {
@@ -22,6 +17,7 @@ void loop() {
     b[1] = i % 1000 / 100;
     b[2] = i % 100 / 10;
     b[3] = i % 10;
-    displayBytes(b);
+    tm1637.display(b);
+    delay(500);
   }
 }
