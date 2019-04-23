@@ -29,7 +29,13 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 * [Arduino/nRF52840_LoRaWAN_DHT11_Device/nRF52840_LoRaWAN_DHT11_Device.ino](Arduino/nRF52840_LoRaWAN_DHT11_Device/nRF52840_LoRaWAN_DHT11_Device.ino)
 
 ##### Setup software
-* Edit [nRF52840_LoRaWAN_DHT11_Device.ino](Arduino/nRF52840_LoRaWAN_DHT11_Device/nRF52840_LoRaWAN_DHT11_Device.ino) to set TTN NwkSKey, AppSKey and DevAddr.
+* Edit [nRF52840_LoRaWAN_DHT11_Device.ino](Arduino/nRF52840_LoRaWAN_DHT11_Device/nRF52840_LoRaWAN_DHT11_Device.ino) to set TTN NwkSKey, AppSKey and DevAddr:
+
+    ```
+    static const u1_t PROGMEM NWKSKEY[16] = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
+    static const u1_t PROGMEM APPSKEY[16] = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
+    static const u4_t DEVADDR = 0x00000000;
+    ```
 
 ##### Setup hardware
 * The sensor device consists of a [nRF52840](https://github.com/tamberg/fhnw-iot/wiki/Feather-nRF52840-Express), [RFM95W](https://github.com/tamberg/fhnw-iot/wiki/FeatherWing-RFM95W), [Grove adapter](https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#grove-shield-for-feather) and a [DHT11 sensor](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#temperature--humidity-sensor-dht11).
@@ -40,10 +46,25 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 > Embedded code / microcontroller firmware.
 
 ##### Source code
+* [Arduino/ESP8266_JSON_Test/ESP8266_JSON_Test.ino](Arduino/ESP8266_JSON_Test/ESP8266_JSON_Test.ino)
 * [Arduino/ESP8266_MqttSubClient_Test/ESP8266_MqttSubClient_Test.ino](Arduino/ESP8266_MqttSubClient_Test/ESP8266_MqttSubClient_Test.ino)
+* ...
 
 ##### Setup software
-* Set the ThingSpeak Read API key
+* Set Wi-Fi credentials
+
+    ```
+    const char *ssid = "MY_SSID";
+    const char *password = "MY_PASSWORD";
+    ```
+
+* Set ThingSpeak keys
+
+    ```
+    const char *mqttPassword = "TS_MQTT_API_KEY";
+    const char *channelId = "TS_CHANNEL_ID";
+    const char *readApiKey = "TS_READ_API_KEY";
+    ```
 
 ##### Setup hardware
 * The actuator device consists of a [ESP8266](https://github.com/tamberg/fhnw-iot/wiki/Feather-Huzzah-ESP8266), [Grove adapter](https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#grove-shield-for-feather), [buzzer](https://github.com/tamberg/fhnw-iot/wiki/Grove-Actuators#buzzer), [button](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#button), [rotary angle sensor](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#rotary-angle-sensor), and a [display](https://github.com/tamberg/fhnw-iot/wiki/Grove-Actuators#4-digit-display-tm1637).
@@ -61,7 +82,11 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 #### ThingSpeak dashboard
 > ... IoT platform setup steps.
 
-* TODO: setup steps
+* Go to http://thingspeak.com
+* Create a Channel per TTN device
+* Add field1 named "Temperature"
+* Add field2 named "Humidity"
+* Set channel visibility to public (for demo)
 
 #### TTN to ThingSpeak adapter
 > Glue Code used on the gateway or "in the cloud".
