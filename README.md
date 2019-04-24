@@ -136,7 +136,7 @@ This project is a temperature and humidity monitoring system with a configurable
 #### Reference model
 > Reference model of your project.
 
-<img src="Docs/ReferenceModel.png" width="540"/>
+<img src="Docs/ReferenceModel.png" width="640"/>
 
 #### Interface documentation
 > Single slide interface documentation.
