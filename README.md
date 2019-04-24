@@ -133,6 +133,8 @@ This project is a temperature and humidity monitoring system with a configurable
 * Get a temperature or humidity alert
 * Confirm an alert
 
+Why? "Cellar is too humid", "Oven is ready", ...
+
 #### Reference model
 > Reference model of your project.
 
