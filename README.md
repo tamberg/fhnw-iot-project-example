@@ -120,7 +120,7 @@ $ now</pre>
 ### Presentation
 > 4-slide presentation, PDF format, committed to (this) project repo.
 
-* [MY_TEAM_PROJECT_PRESENTATION.pdf](MY_TEAM_PROJECT_PRESENTATION.pdf)
+* [Docs/ProjectExample.pdf](Docs/ProjectExample.pdf)
 
 #### Use case
 > Use-case of your project.
@@ -129,9 +129,9 @@ This project is a temperature and humidity monitoring system with a configurable
 
 * Measure temperature and humidity ✓
 * Display (historic) measurements ✓
-* Set a humidity alarm threshold
-* Get a humidity alarm
-* Confirm an alarm
+* Set a temperature or humidity alert threshold
+* Get a temperature or humidity alert
+* Confirm an alert
 
 #### Reference model
 > Reference model of your project.
