@@ -136,6 +136,8 @@ This project is a temperature and humidity monitoring system with a configurable
 #### Reference model
 > Reference model of your project.
 
+<img src="Docs/ReferenceModel.png" width="540"/>
+
 * LoRaWAN-connected sensor device with a temperature and humidity sensor
 * Wi-Fi-connected actuator device with a buzzer, a display, a button and a potentiometer (dial)
 * LoRaWAN Gateway
