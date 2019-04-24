@@ -185,22 +185,23 @@ Why? "Cellar is too humid", "Oven is ready", ...
 
 > 1) Sensor input on a IoT device triggers an event.
 
-* Device: Sensor device, nRF52840
-    * Use case: Measure temperature and humidity
-* Device: Actuator device, ESP8266
-    * Use case: Set a temperature or humidity alert threshold
+#### Sensor device
+* Use case: Measure temperature and humidity
+
+#### Actuator device
+* Use case: Set a temperature or humidity alert threshold
 
 > 2) The event or measurement shows up online, in an app or Web client.
 
-* Client: Web browser
-    * Use case: Display (historic) measurements
-    * https://thingspeak.com/channels/758483
+#### Web browser
+* Use case: Display (historic) measurements
+* https://thingspeak.com/channels/758483
 
 > 3) The event triggers actuator output on the same or on a separate IoT device.
 
-* Device: Actuator device, ESP8266
-    * Use case: Get a temperature or humidity alert
-    * Use case: Confirm an alert
+#### Actuator device
+* Use case: Get a temperature or humidity alert
+* Use case: Confirm an alert
 
 ## Submission deadline
 > Commit and push to (this) project repo before Demo Day, _03.06.2019, 00:00_.
