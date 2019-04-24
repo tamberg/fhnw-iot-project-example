@@ -76,9 +76,9 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 #### TTN backend
 > ... IoT platform setup steps.
 
-* Register an application named fhnw-project-example
-* Register a device named fhnw-project-example-arduino-1
-* Get ABP keys, NwkSKey, AppSKey and DevAddr (for [nRF52840 setup](https://github.com/tamberg/fhnw-iot-project-example/blob/master/README.md#setup-software) above)
+* Register an application named _fhnw-project-example_
+* Register a device named _fhnw-project-example-arduino-1_
+* Get ABP keys, _NwkSKey_, _AppSKey_ and _DevAddr_ (for [nRF52840 setup](https://github.com/tamberg/fhnw-iot-project-example/blob/master/README.md#setup-software) above)
 * See http://www.tamberg.org/fhnw/2019/IoT08LoRaWANConnectivity.pdf p.18, 19 and 21
 
 #### ThingSpeak dashboard
@@ -86,8 +86,8 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 
 * Go to http://thingspeak.com
 * Create a Channel per TTN device
-* Add field1 named "Temperature"
-* Add field2 named "Humidity"
+* Add _field1_ named _Temperature_
+* Add _field2_ named _Humidity_
 * Set channel visibility to public (for demo)
 
 #### TTN to ThingSpeak adapter
@@ -136,7 +136,7 @@ This project is a temperature and humidity monitoring system with a configurable
 #### Reference model
 > Reference model of your project.
 
-<img src="Docs/ReferenceModel.png" width="540"/>
+<img src="Docs/ReferenceModel.png" width="640"/>
 
 #### Interface documentation
 > Single slide interface documentation.
