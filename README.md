@@ -27,6 +27,8 @@ See [use cases](#use-cases) and [reference model](#reference-model) below.
 #### Sensor device
 > Embedded code / microcontroller firmware.
 
+<img src="Docs/SensorDevice.jpg" width="640"/>
+
 ##### Source code
 * [Arduino/nRF52840_DHT11_Test/nRF52840_DHT11_Test.ino](Arduino/nRF52840_DHT11_Test/nRF52840_DHT11_Test.ino)
 * [Arduino/nRF52840_LoRaWAN_Test/nRF52840_LoRaWAN_Test.ino](Arduino/nRF52840_LoRaWAN_Test/nRF52840_LoRaWAN_Test.ino)
@@ -48,6 +50,8 @@ See [use cases](#use-cases) and [reference model](#reference-model) below.
 
 #### Actuator device
 > Embedded code / microcontroller firmware.
+
+<img src="Docs/ActuatorDevice.jpg" width="640"/>
 
 ##### Source code
 * [Arduino/ESP8266_Display_Test/ESP8266_Display_Test.ino](Arduino/ESP8266_Display_Test/ESP8266_Display_Test.ino)
