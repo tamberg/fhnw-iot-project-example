@@ -156,7 +156,19 @@ This project is a temperature and humidity monitoring system with a configurable
 * MQTT API to read from ThingSpeak
 
     ```
-    $ mqtt sub -t 'channels/CHANNEL_ID/subscribe/json/READ_API_KEY' -h 'mqtt.thingspeak.com' -u 'esp8266-CHANNEL_ID' -P 'MQTT_API_KEY' -p 1883 -q 0    
+    $ mqtt sub -t 'channels/CHANNEL_ID/subscribe/json/READ_API_KEY' -h 'mqtt.thingspeak.com' -u 'esp8266-CHANNEL_ID' -P 'MQTT_API_KEY' -p 1883 -q 0
+    
+    {
+      "channel_id":0,
+      "created_at":"2019-04-22T15:44:18Z",
+      "entry_id":2706,
+      "field1":"23",
+      "field2":"42",
+      "latitude":null,
+      "longitude":null,
+      "elevation":null,
+      "status":null
+    }
     ```
 
 #### Issues
