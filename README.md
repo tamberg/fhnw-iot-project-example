@@ -10,7 +10,7 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 > * Slides, source code and setup steps on GitHub.
 > * Both team members are able to explain the project.
 
-It is a temperature and humidity monitoring system with a configurable alert.
+We built a temperature and humidity monitoring system with configurable alerts.
 
 See [use case](#use-case) and [reference model](#reference-model) below.
 
@@ -129,11 +129,11 @@ $ now</pre>
 #### Use case
 > Use-case of your project.
 
-This project is a temperature and humidity monitoring system with a configurable alert.
+This project is a temperature and humidity monitoring system with configurable alerts.
 
 * Measure temperature and humidity ✓
 * Display (historic) measurements ✓
-* Set a temperature or humidity alert threshold
+* Set a temperature or humidity alert threshold ✓
 * Get a temperature or humidity alert
 * Confirm an alert
 
