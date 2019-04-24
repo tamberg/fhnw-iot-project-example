@@ -170,10 +170,11 @@ Why? "Cellar is too humid", "Oven is ready", ...
 #### Issues
 > Issues you faced, how you solved them.
 
-* Sensor Device: Pin mapping, "D2 is D5" on the nRF52840
-* Sensor Device: Pin collision, [D5 used by DHT11 and RFM95W](https://github.com/tamberg/fhnw-iot-project-example/issues/2)
-* Actuator Device: [Connecting to ThingSpeak MQTT API](https://github.com/tamberg/fhnw-iot-project-example/issues/3)
-* See also [GitHub Issues](../../issues) of this project
+* ESP8266 programming works without adapter only.
+* [Pin collision](https://github.com/tamberg/fhnw-iot-project-example/issues/2), D5 used by both, DHT11 and RFM95W.
+* [Connecting to ThingSpeak MQTT API](https://github.com/tamberg/fhnw-iot-project-example/issues/), -u, -P, QoS 0.
+* Getting the state machine right on actuator device.
+* For details, see [GitHub Issues](../../issues)
 
 ### Live demo
 > Working end-to-end prototype, "device to cloud", part of your 10' presentation.
