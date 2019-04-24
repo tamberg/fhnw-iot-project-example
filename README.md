@@ -12,7 +12,7 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 
 We built a temperature and humidity monitoring system with configurable alerts.
 
-See [use case](#use-case) and [reference model](#reference-model) below.
+See [use cases](#use-cases) and [reference model](#reference-model) below.
 
 ### Team members
 * [@tamberg](https://github.com/tamberg)
@@ -126,7 +126,7 @@ $ now</pre>
 
 * [Docs/ProjectExample.pdf](Docs/ProjectExample.pdf)
 
-#### Use case
+#### Use cases
 > Use-case of your project.
 
 This project is a temperature and humidity monitoring system with configurable alerts.
@@ -183,8 +183,6 @@ Why? "Cellar is too humid", "Oven is ready", ...
 ### Live demo
 > Working end-to-end prototype, "device to cloud", part of your 10' presentation.
 
-* https://thingspeak.com/channels/758483
-
 > 1) Sensor input on a IoT device triggers an event.
 
 * Device: Sensor device, nRF52840
@@ -196,6 +194,7 @@ Why? "Cellar is too humid", "Oven is ready", ...
 
 * Client: Web browser
     * Use case: Display (historic) measurements
+    * https://thingspeak.com/channels/758483
 
 > 3) The event triggers actuator output on the same or on a separate IoT device.
 
