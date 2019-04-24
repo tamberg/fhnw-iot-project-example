@@ -81,6 +81,8 @@ See [use cases](#use-cases) and [reference model](#reference-model) below.
 * Stack the ESP8266 on top of the Grove adapter.
 * Connect the buzzer to D2, button to D4, rotary angle sensor to A0, display to I2C_1 of the Grove adapter.
 
+Note: the Grove adapter [reset issue](https://github.com/tamberg/fhnw-iot/issues/1) does not seem to affect this setup. But programming of the ESP8266 only works, if the Grove adapter is removed.
+
 #### TTN backend
 > ... IoT platform setup steps.
 
