@@ -10,6 +10,10 @@ This project is part of the [IoT Engineering](../../../fhnw-iot) course.
 > * Slides, source code and setup steps on GitHub.
 > * Both team members are able to explain the project.
 
+We built a temperature and humidity monitoring system with configurable alerts.
+
+See [use cases](#use-cases) and [reference model](#reference-model) below.
+
 ### Team members
 * [@tamberg](https://github.com/tamberg)
 * [@DIYKulturZH](https://github.com/DIYKulturZH)
@@ -122,16 +126,18 @@ $ now</pre>
 
 * [Docs/ProjectExample.pdf](Docs/ProjectExample.pdf)
 
-#### Use case
+#### Use cases
 > Use-case of your project.
 
-This project is a temperature and humidity monitoring system with a configurable alert.
+This project is a temperature and humidity monitoring system with configurable alerts.
 
 * Measure temperature and humidity ✓
 * Display (historic) measurements ✓
-* Set a temperature or humidity alert threshold
+* Set a temperature or humidity alert threshold ✓
 * Get a temperature or humidity alert
 * Confirm an alert
+
+Why? "Cellar is too humid", "Oven is ready", ...
 
 #### Reference model
 > Reference model of your project.
@@ -168,20 +174,34 @@ This project is a temperature and humidity monitoring system with a configurable
 #### Issues
 > Issues you faced, how you solved them.
 
-* Sensor Device: Pin mapping, "D2 is D5" on the nRF52840
-* Sensor Device: Pin collision, [D5 used by DHT11 and RFM95W](https://github.com/tamberg/fhnw-iot-project-example/issues/2)
-* Actuator Device: [Connecting to ThingSpeak MQTT API](https://github.com/tamberg/fhnw-iot-project-example/issues/3)
-* See also [GitHub Issues](../../issues) of this project
+* ESP8266 programming works without adapter only.
+* [Pin collision](https://github.com/tamberg/fhnw-iot-project-example/issues/2), D5 used by both, DHT11 and RFM95W.
+* [Connecting to ThingSpeak MQTT API](https://github.com/tamberg/fhnw-iot-project-example/issues/), -u, -P, QoS 0.
+* Getting the state machine right on actuator device.
+* For details, see [issues on GitHub](../../issues).
 
 ### Live demo
 > Working end-to-end prototype, "device to cloud", part of your 10' presentation.
 
-* https://thingspeak.com/channels/758483
-* https://MY_TEAM_PROJECT_DEMO_HOST:PORT/
+> 1) Sensor input on a IoT device triggers an event.
 
-1) Sensor input on a IoT device triggers an event.
-2) The event or measurement shows up online, in an app or Web client.
-3) The event triggers actuator output on the same or on a separate IoT device.
+* Sensor device
+    * Use case: Measure temperature and humidity
+
+* Actuator device
+    * Use case: Set a temperature or humidity alert threshold
+
+> 2) The event or measurement shows up online, in an app or Web client.
+
+* Web browser
+    * Use case: Display (historic) measurements
+    * https://thingspeak.com/channels/758483
+
+> 3) The event triggers actuator output on the same or on a separate IoT device.
+
+* Actuator device
+    * Use case: Get a temperature or humidity alert
+    * Use case: Confirm an alert
 
 ## Submission deadline
 > Commit and push to (this) project repo before Demo Day, _03.06.2019, 00:00_.
