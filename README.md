@@ -185,9 +185,19 @@ Why? "Cellar is too humid", "Oven is ready", ...
 
 * https://thingspeak.com/channels/758483
 
-1) Sensor input on a IoT device triggers an event.
-2) The event or measurement shows up online, in an app or Web client.
-3) The event triggers actuator output on the same or on a separate IoT device.
+> 1) Sensor input on a IoT device triggers an event.
+
+* Measure temperature and humidity ✓
+* Set a temperature or humidity alert threshold ✓
+
+> 2) The event or measurement shows up online, in an app or Web client.
+
+* Display (historic) measurements ✓
+
+> 3) The event triggers actuator output on the same or on a separate IoT device.
+
+* Get a temperature or humidity alert
+* Confirm an alert
 
 ## Submission deadline
 > Commit and push to (this) project repo before Demo Day, _03.06.2019, 00:00_.
