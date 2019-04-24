@@ -150,7 +150,7 @@ This project is a temperature and humidity monitoring system with a configurable
 * HTTP API to write to ThingSpeak
 
     ```
-    $ curl ...
+    $ curl -vX POST https://api.thingspeak.com/update?key=WRITE_API_KEY&field1=23&field2=42
     ```
 
 * MQTT API to read from ThingSpeak
