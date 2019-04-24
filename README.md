@@ -120,7 +120,7 @@ $ now</pre>
 ### Presentation
 > 4-slide presentation, PDF format, committed to (this) project repo.
 
-* [MY_TEAM_PROJECT_PRESENTATION.pdf](MY_TEAM_PROJECT_PRESENTATION.pdf)
+* [Docs/ProjectExample.pdf](Docs/ProjectExample.pdf)
 
 #### Use case
 > Use-case of your project.
