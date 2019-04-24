@@ -138,14 +138,6 @@ This project is a temperature and humidity monitoring system with a configurable
 
 <img src="Docs/ReferenceModel.png" width="540"/>
 
-* LoRaWAN-connected sensor device with a temperature and humidity sensor
-* Wi-Fi-connected actuator device with a buzzer, a display, a button and a potentiometer (dial)
-* LoRaWAN Gateway
-* Wi-Fi Router
-* TTN LoRaWAN backend
-* ThingSpeak backend
-* Glue code on Zeit Now
-
 #### Interface documentation
 > Single slide interface documentation.
 
