@@ -27,6 +27,8 @@ See [use cases](#use-cases) and [reference model](#reference-model) below.
 #### Sensor device
 > Embedded code / microcontroller firmware.
 
+<img src="Docs/SensorDevice.jpg" width="640"/>
+
 ##### Source code
 * [Arduino/nRF52840_DHT11_Test/nRF52840_DHT11_Test.ino](Arduino/nRF52840_DHT11_Test/nRF52840_DHT11_Test.ino)
 * [Arduino/nRF52840_LoRaWAN_Test/nRF52840_LoRaWAN_Test.ino](Arduino/nRF52840_LoRaWAN_Test/nRF52840_LoRaWAN_Test.ino)
@@ -48,6 +50,8 @@ See [use cases](#use-cases) and [reference model](#reference-model) below.
 
 #### Actuator device
 > Embedded code / microcontroller firmware.
+
+<img src="Docs/ActuatorDevice.jpg" width="640"/>
 
 ##### Source code
 * [Arduino/ESP8266_Display_Test/ESP8266_Display_Test.ino](Arduino/ESP8266_Display_Test/ESP8266_Display_Test.ino)
@@ -73,9 +77,11 @@ See [use cases](#use-cases) and [reference model](#reference-model) below.
     ```
 
 ##### Setup hardware
-* The actuator device consists of a [ESP8266](https://github.com/tamberg/fhnw-iot/wiki/Feather-Huzzah-ESP8266), [Grove adapter](https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#grove-shield-for-feather), [buzzer](https://github.com/tamberg/fhnw-iot/wiki/Grove-Actuators#buzzer), [button](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#button), [rotary angle sensor](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#rotary-angle-sensor), and a [display](https://github.com/tamberg/fhnw-iot/wiki/Grove-Actuators#4-digit-display-tm1637).
+* The actuator device consists of a [ESP8266](https://github.com/tamberg/fhnw-iot/wiki/Feather-Huzzah-ESP8266), [Grove adapter](https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#grove-shield-for-feather), [buzzer](https://github.com/tamberg/fhnw-iot/wiki/Grove-Actuators#buzzer) (or [LED](https://github.com/tamberg/fhnw-iot/wiki/Grove-Actuators#led)), [button](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#button), [rotary angle sensor](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#rotary-angle-sensor), and a [display](https://github.com/tamberg/fhnw-iot/wiki/Grove-Actuators#4-digit-display-tm1637).
 * Stack the ESP8266 on top of the Grove adapter.
-* Connect the buzzer to D2, button to D4, rotary angle sensor to A0, display to I2C_1 of the Grove adapter.
+* Connect the buzzer (or LED) to D2, button to D4, rotary angle sensor to A0, display to I2C_1 of the Grove adapter.
+
+Note: the Grove adapter [reset issue](https://github.com/tamberg/fhnw-iot/issues/1) does not seem to affect this setup. But programming of the ESP8266 only works, if the Grove adapter is removed.
 
 #### TTN backend
 > ... IoT platform setup steps.
