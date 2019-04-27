@@ -184,6 +184,7 @@ Why? "Cellar is too humid", "Oven is ready", ...
 * [Pin collision](https://github.com/tamberg/fhnw-iot-project-example/issues/2), D5 used by both, DHT11 and RFM95W.
 * [Connecting to ThingSpeak MQTT API](https://github.com/tamberg/fhnw-iot-project-example/issues/), -u, -P, QoS 0.
 * Getting the state machine right on actuator device.
+* [Data drops to 0](https://github.com/tamberg/fhnw-iot-project-example/issues/5) on ThingSpeak.
 * For details, see [issues on GitHub](../../issues).
 
 ### Live demo
