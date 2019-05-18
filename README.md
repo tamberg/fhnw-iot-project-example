@@ -47,6 +47,9 @@ See [use cases](#use-cases) and [reference model](#reference-model) below.
 * Stack the nRF52840 on top of the RFM95W on top of the Grove adapter.
 * Connect the DHT11 sensor to A4 of the Grove adapter.
 
+##### Build an enclosure
+* See https://www.thingiverse.com/thing:3638252
+
 #### Actuator device
 > Embedded code / microcontroller firmware.
 
