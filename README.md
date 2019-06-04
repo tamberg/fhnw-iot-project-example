@@ -85,6 +85,10 @@ See [use cases](#use-cases) and [reference model](#reference-model) below.
 
 Note: the Grove adapter [reset issue](https://github.com/tamberg/fhnw-iot/issues/1) does not seem to affect this setup. But programming of the ESP8266 only works, if the Grove adapter is removed.
 
+#### Build an enclosure
+
+* See https://www.thingiverse.com/thing:3672408
+
 #### TTN backend
 > ... IoT platform setup steps.
 
