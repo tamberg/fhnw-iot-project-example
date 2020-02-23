@@ -88,6 +88,9 @@ void onEvent (ev_t ev) {
     case EV_LINK_ALIVE:
       Serial.println(F("EV_LINK_ALIVE"));
       break;
+    case EV_JOIN_TXCOMPLETE:
+      Serial.println(F("EV_JOIN_TXCOMPLETE: no JoinAccept"));
+      break;
     default:
       Serial.print(F("Unknown event: "));
       Serial.println((unsigned) ev);
